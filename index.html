@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>OcaMedia</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Heaeder -->
+    <header>
+      <div class="header">
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- <h1>OcaMedia</h1> -->
+        <div class="search-container">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search by Name or location"
+          />
+          <i class="fa-solid fa-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Nav Area -->
+    <div class="nav-container">
+      <div class="nav-header">
+        <img src="./images/radio.png" alt="" />
+        <h2>OcaMedia</h2>
+      </div>
+      <div class="nav-body">
+        <li class="list-item home">
+          <i class="fa-solid fa-home"></i>
+          <small>Home</small>
+        </li>
+        <li class="list-item contact">
+          <i class="fa-solid fa-user"></i>
+          <small>Contact</small>
+        </li>
+
+        <li class="list-item about">
+          <i class="fa-solid fa-info"></i>
+          <small>About</small>
+        </li>
+        <li class="list-item share">
+          <i class="fa-solid fa-share-nodes"></i>
+          <small>Share</small>
+        </li>
+        <li class="list-item more">
+          <i class="fa-solid fa-computer"></i>
+          <small>Learn More</small>
+        </li>
+      </div>
+    </div>
+    <!-- OverLay -->
+    <div class="overlay hide"></div>
+    <!-- Info Pages -->
+    <div class="page hide">
+      <header>
+        <div class="back-btn"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="title">About</div>
+        <p class="empty"></p>
+      </header>
+
+      <div class="body-wrapper">
+        <div class="body">
+          <p>This is the body</p>
+        </div>
+      </div>
+    </div>
+    <!-- Main Container -->
+    <div class="container">
+      <div class="radio-btns radios">Radio List Will be here</div>
+
+      <!-- Footer -->
+      <div class="footer wrapper">
+        <!-- Notice Container -->
+        <div class="notice-container">
+          <p>Select Radio to Play</p>
+        </div>
+        <div class="btn-container">
+          <button id="play-btn" class="btn play-btn">
+            <i class="fa-solid fa-play"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
