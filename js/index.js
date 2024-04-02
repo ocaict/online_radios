@@ -5,8 +5,8 @@ function onDeviceReady() {
   // Define initial variables
   let selected = streams[0];
   let selectedImage = null;
-  const waveGif = ".././images/wave.gif";
-  const wavePNG = ".././images/wave2.png";
+  const waveGif = "images/wave.gif";
+  const wavePNG = "images/wave2.png";
 
   // Get DOM elements
   const playPauseBtn = document.querySelector("#play-btn");

@@ -1,5 +1,5 @@
-const OcaLogo = ".././images/oca.png";
-const capitalFMLogo = ".././images/radio-nig.png";
+const OcaLogo = "images/oca.png";
+const capitalFMLogo = "images/radio-nig.png";
 
 const streams = [
   {
