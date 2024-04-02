@@ -16,7 +16,7 @@ body {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 128, 0.4)
     ),
-    url(/images/bg.jpg);
+    url(../images/bg.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -307,7 +307,7 @@ button .wave {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.656)
     ),
-    url(/images/bg.jpg);
+    url(../images/bg.jpg);
 
   background-position: center;
   background-repeat: no-repeat;
